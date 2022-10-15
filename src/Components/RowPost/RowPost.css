@@ -1,0 +1,65 @@
+.row {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.posters {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+
+.posters::-webkit-scrollbar {
+    display: none;
+}
+
+
+.poster {
+    cursor: pointer;
+    max-height: 250px;
+    margin-right: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+
+.smallPoster {
+    cursor: pointer;
+    max-height: 150px;
+    margin-right: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+
+}
+
+.poster:hover, .smallPoster:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+
+}
+
+.small-div {
+    position: relative;
+
+}
+
+.small-title {
+    position: absolute;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 27%, rgba(0, 0, 0, 1) 78%, rgba(0, 0, 0, 0) 100%);
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+}
+
